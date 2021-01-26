@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+<style>
+    txt {
+    text-align: center;
+    color: black;
+  }
+</style>
+<title>Randomizer</title>
+<div class="content">
+    <txt>
+        <h1>Try to Guess</h1>
+        <form method="Post" action="/">
+            <div class="form-group">
+                <input type="number" name="num">
+            </div>
+            <input class="btn btn-primary" type="submit" value="submit">
+    </txt>
+        </form>
+</div>
+{% endblock %}
